@@ -1,0 +1,29 @@
+/* DealsAndPromotions.css */
+.deals-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .deal-item {
+    width: 200px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .deal-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .deal-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
